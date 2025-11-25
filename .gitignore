@@ -1,0 +1,40 @@
+# Data and models (too large for git)
+data/
+clip_model/
+*.tar.gz
+
+# Artifacts and results
+artifacts/
+artifacts_optA/
+artifacts_optB/
+
+# Logs
+logs/
+*.log
+*.err
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+
+# SLURM
+*.slurm.o*
+job.slurm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
